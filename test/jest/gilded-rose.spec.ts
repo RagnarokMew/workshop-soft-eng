@@ -184,7 +184,7 @@ describe('Gilded Rose', () => {
       expect(items[0].quality).toBe(0);
   })
 
-/*
+
     it('Conjured Mana Cake Test', () => {
       const gildedRose = new GildedRose([new Item('Mana Cake', 3, 6)]);
 
@@ -205,7 +205,7 @@ describe('Gilded Rose', () => {
 
       expect(items[0].sellIn).toBe(-7);
       expect(items[0].quality).toBe(0);
-  })*/
+  })
 
 
 });
