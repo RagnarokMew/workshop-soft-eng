@@ -41,6 +41,9 @@ export class Item {
           }
         }
 
+        if(this.name.includes('Conjured'))
+          decay*=2;
+
         this.quality -= decay
 
         if(this.quality > 50)
