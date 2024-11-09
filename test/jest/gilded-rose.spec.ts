@@ -186,7 +186,7 @@ describe('Gilded Rose', () => {
 
 
     it('Conjured Mana Cake Test', () => {
-      const gildedRose = new GildedRose([new Item('Mana Cake', 3, 6)]);
+      const gildedRose = new GildedRose([new Item('Conjured Mana Cake', 3, 6)]);
 
       // day 1
       let items = gildedRose.updateQuality();
